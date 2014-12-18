@@ -20,18 +20,18 @@
             <div class="titulo-form">LOGIN</div>
             <h:panelGroup styleClass="form-block" layout="block">
                 <h:outputLabel value="Usuário" style="display: inline-block; width: 50px"/>
-                <h:inputText/>
+                <h:inputText id="login" required="true"/> 
             </h:panelGroup>
             <h:panelGroup styleClass="form-block" layout="block">
                 <h:outputLabel value="Senha" style="display: inline-block; width: 50px"/>
-                <h:inputSecret/>
+                <h:inputSecret id="senha" required="true"/>
             </h:panelGroup>
             <h:panelGroup styleClass="form-block" layout="block">
                 <h:selectBooleanCheckbox/>
                 <h:outputText value="Administrador"/>
             </h:panelGroup>
             <h:commandButton value="Entrar"/>
-            <h:messages/>
+            <h:messages class="msgerro"/>
         </h:form>
     </ui:define>
 

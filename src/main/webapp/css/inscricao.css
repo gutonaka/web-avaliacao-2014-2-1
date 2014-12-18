@@ -13,3 +13,9 @@ label {
     margin-left: 1em;
     margin-right: 0.25em;
 }
+
+.nome-aluno{
+    font-size: 12pt;
+    font-weight: normal;
+    margin: 10px 0;
+}
